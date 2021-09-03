@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panadería</title>
+	<link id="favicon" rel="shortcut icon" href="../assets/Imagenes/Logo.ico" type="image/ico">
+    <link rel="stylesheet" href="">
+
+</head>
+<header id="headerGrande">
+    <img class='logo' src="../assets/Imagenes/Logo.ico" alt="logo">
+    <nav>
+    <ul class="dropdown_menu dropdown_menu--animated dropdown_menu-6">
+        <a routerLink="home"><li>INICIO</li></a>
+        <a routerLink="nosotros"><li>NOSOTROS</li></a>
+        <a routerLink="locales"><li>COMERCIOS</li></a>
+        <a routerLink="servicios"><li>SERVICIOS</li></a>
+        <a routerLink="novedades"><li>NOVEDADES</li></a>
+        <a routerLink="contacto"><li>CONTACTO</li></a>
+    </ul></nav>
+</header>
+
+
+<header id="headerChico">
+    <img class='logo' src="../assets/Imagenes/Logo.ico" alt="logo">
+
+    <div class="dropdown" style="float:right; margin: 3%;">
+        <button class="dropbtn">       
+            <img class="imgMenu" src="../assets/Imagenes/Iconos/MenuIcono.png" alt="logo"> 
+        </button>
+        <div class="dropdown-content">
+            <a routerLink="home">INICIO</a>
+            <a routerLink="nosotros">NOSOTROS</a>
+            <a routerLink="locales">COMERCIOS</a>
+            <a routerLink="servicios">SERVICIOS</a>
+            <a routerLink="novedades">NOVEDADES</a>
+            <a routerLink="contacto">CONTACTO</a>
+        </div>
+      </div>
+       
+</header>
+
+
+<!-- <header id="headerChico">
+    <img class='logo' src="../assets/Imagenes/Logo.ico" alt="logo"> -->
+
+    <!-- <div class="dropdown">
+        <button class="dropbtn">
+       <img class="imgMenu" src="../assets/Imagenes/Iconos/MenuIcono.png" alt="logo"> 
+        </button>
+        <div class="dropdown-content">
+          <a routerLink="home">INICIO</a>
+          <a routerLink="nosotros">NOSOTROS</a>
+          <a routerLink="locales">COMERCIOS</a>
+          <a routerLink="servicios">SERVICIOS</a>
+          <a routerLink="novedades">NOVEDADES</a>
+          <a routerLink="contacto">CONTACTO</a>
+
+          
+        </div>
+      </div> -->
+    <!-- <ul class="menu">
+        <li class="dropdown dropdown-6">
+          <ul class="dropdown_menu dropdown_menu--animated dropdown_menu-6">
+             <img class="imgMenu" src="../assets/Imagenes/Iconos/menu_icon.png" alt="logo"> 
+
+            <li class="dropdown_item-1"></li>
+            <li class="dropdown_item-2"></li>
+            <li class="dropdown_item-3"></li>
+            <li class="dropdown_item-4"></li>
+            <li class="dropdown_item-5"></li>
+            <li class="dropdown_item-5"></li>
+
+
+          </ul>
+        </li>
+    </ul> -->
+
+
+<body>
+    <router-outlet class='router-outlet'></router-outlet>
+
+</body>
+<footer id="footer">
+    <br>
+    <div class="redes">
+            <a href="https://www.instagram.com/ucpiadelviso/?hl=es-la" ><img src="../../../assets/Imagenes/Iconos/IconoInstagram.png"></a>
+            <a href="https://api.whatsapp.com/send?phone=+5491125043640&text=Hola!"><img src="../../../assets/Imagenes/Iconos/TelefonoBlanco.png"></a>
+            <a href="https://www.instagram.com/ucpiadelviso/?hl=es-la"><img src="../../../assets/Imagenes/Iconos/Mail2.png"></a>
+            <a href="https://www.facebook.com/Union-De-Comerciantes-Profesionales-Industrias-Y-Afines-De-Delviso-101897028501219/"><img src="../../../assets/Imagenes/Iconos/IconoFacebook.png"></a>  
+            <br>
+            <br>
+            <br>
+            <p>Diseño Y Maquetado: Fiore Di Gregorio</p>
+            <br>
+        </div>
+</footer>
+
+
+

@@ -1,0 +1,173 @@
+html{
+    background-color: #B6A7AE;
+    width: 100%;
+    height: 100%;
+}
+
+.opcionesinicio { 
+    background-color: white;
+    border-radius: 5px; 
+}
+
+header{
+    background-image: url(../assets/Imagenes/89029869.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    --width: 60%;
+    height: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 0px 0px 20px 20px;
+    background-color:#6D6D6D;
+}
+
+.botones{
+    text-align: center;
+    display: table;
+}
+
+.opcionesinicio:hover{
+    background-color: blue;
+}
+
+body{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.logo{
+    margin-left: 3%;
+    margin-top: 2%;
+    width: 8%;
+    border-radius: 20%;
+}
+    
+nav {   
+    text-align: center;
+    height:100%;
+    width: 100%;
+}
+
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:1vw;  
+} 
+
+nav li{   
+    display:inline-block;
+    width:10%;
+    padding:5px 10px;
+    background-color:#000;
+    border:1px solid #000;
+    text-align:center;
+    color:rgb(256, 256, 256);
+    margin: 1%;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav li:hover{
+    background-color:#fff;
+    color:#000;
+}
+
+footer{
+    --width: 40%;
+    height: 20%;
+    margin-top:1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px 20px 0px 0px ;
+    background-color:rgb(0, 0, 0);
+}
+
+p{ 
+    font-size: small;
+    font-family: './assets/Fuentes/Roboto-Regular.ttf';
+    text-align:center;
+    color:white;
+    text-transform: uppercase;
+    text-align: right;
+    padding-right:3%;
+}
+
+.redes{
+    text-align:center;
+}
+
+a img{
+    height: 3%;
+    width: 3%;
+    padding-left:1%;
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#headerChico{
+    display: none;
+    width: 80%;
+}
+#headerGrande{
+    display: block;
+}
+
+
+@media screen and (max-width:1000px) {
+    #headerChico{
+        display: block;
+        width: 90%;
+        height: 80%;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 0px 0px 20px 20px;      
+    }
+
+    .logo{
+        margin: 3%;
+        width: 15%;
+        border-radius: 20%;
+        margin-bottom: 5%;
+    }
+
+    #headerGrande{
+        display: none;
+    }    
+
+    p{ 
+        font-size: 10%;
+        font-family: './assets/Fuentes/Roboto-Regular.ttf';
+        text-align:center;
+        color:white;
+        text-transform: uppercase;
+        text-align: right;
+        padding-right:3%;
+    }    
+
+    body{
+        width: 90%;
+        margin-top:1%;
+        margin-left: 5%;
+        margin-right: 5%;
+        background-color: white;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+    footer{
+        width: 90%;
+        height: 20%;
+        margin-top:1%;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 20px 20px 0px 0px ;
+        background-color:rgb(0, 0, 0);
+    }
+}
+
+
+
+

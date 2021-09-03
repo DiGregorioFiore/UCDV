@@ -1,0 +1,43 @@
+<html>
+    <br>
+    <h1 class="titulo">COMISIÓN DIRECTIVA UCDV</h1>
+    <br>
+<main> 
+    <br>
+    <div class="grid-container">
+        <div class="grid-item" *ngFor ='let nosotros of NosotrosDirectivos'>
+            <a id="nosotros" href="#"><img src={{nosotros.foto}} alt=""> </a> 
+            <p><b>{{nosotros.puesto}}: </b>{{nosotros.nombre}}</p>     
+        </div>    
+    </div>  
+    <br>
+    <br>
+    <h1 class="titulo">Vocales titulares</h1>
+    <br>
+    <br>
+    <div class="grid-container">
+        <div class="grid-item" *ngFor ='let nosotros of NosotrosVocales'>
+            <a id="nosotros" href="#"><img src={{nosotros.foto}} alt=""> </a> 
+            <p><b>{{nosotros.puesto}} </b>{{nosotros.nombre}}</p>     
+        </div>    
+    </div>  
+    <h1 class="titulo">Vocales suplentes</h1>
+    <br>
+    <br>
+    <div class="grid-container">
+        <div class="grid-item" *ngFor ='let nosotros of NosotrosVocalesSuplentes'>
+            <a id="nosotros" href="#"><img src={{nosotros.foto}} alt=""> </a> 
+            <p><b>{{nosotros.puesto}}</b>{{nosotros.nombre}}</p>     
+        </div>    
+    </div>  
+    <h1 class="titulo">Comisión revisora de cuentas</h1>
+    <br>
+    <br>
+    <div class="grid-container">
+        <div class="grid-item" *ngFor ='let nosotros of NosotrosCuentas'>
+            <a id="nosotros" href="#"><img src={{nosotros.foto}} alt=""> </a> 
+            <p><b>{{nosotros.puesto}}</b>{{nosotros.nombre}}</p>     
+        </div>    
+    </div>  
+</main>
+</html>

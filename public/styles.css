@@ -1,0 +1,116 @@
+ /* You can add global styles to this file, and also import other style files */
+*{
+    font-family: './assets/Fuentes/Roboto-Regular.ttf';
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/*Detalles*/
+.grid-container-detalles {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:35%;
+    left: 0%;
+}
+.grid-item-detalles {
+    background-color:#FFF4D8;
+    text-align: center;     
+}
+.grid-item-detalles img{
+    width: 20%;
+	height: auto;
+	cursor: pointer;
+    border-radius: 5% / 5%;
+    top:2%;
+}
+.grid-item-detalles2 {
+    background-color:#FFF4D8;
+}
+@media screen and (max-width:1000px) {
+  
+  .dropbtn {
+    background-color: #ffffff;
+    color: white;
+    margin-top: 30%;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer; 
+    border-radius: 6%;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+    font-size: small;
+  }
+  
+  .dropdown-content a:hover {background-color: #eeeeee;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropbtn {background-color: #ffffff;}
+
+  
+}
+/* Dropdown Button */
+/* .dropbtn { */
+/* background-color: rgb(8, 8, 8); */
+/* color: white; */
+/* padding: 5px; */
+/* font-size: 16px; */
+/* border: none; */
+/* text-align: right; */
+/* } */
+/* The container <div> - needed to position the dropdown content */
+/* .dropdown { */
+/* position: relative;  */
+/* display: block; */
+/* text-align: right; */
+/* } */
+/* Dropdown Content (Hidden by Default) */
+/* .dropdown-content {
+  text-align: right;
+  /* display: none; */
+/* position: absolute; */
+/* background-color: #f1f1f1; */
+/* min-width: 160px; */
+/* box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2); */
+/* z-index: 1; */
+/* Links inside the dropdown */
+/* .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: small;
+  text-align: left;
+} */
+/* Change color of dropdown links on hover */
+/* .dropdown-content a:hover {background-color: #ddd;} */
+/* Show the dropdown menu on hover */
+/* .dropdown:hover .dropdown-content {display: block;} */
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {background-color: #000000;} */
+/* } */
+
+/*# sourceMappingURL=styles.css.map*/

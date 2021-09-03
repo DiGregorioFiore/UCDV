@@ -1,0 +1,109 @@
+
+.titulo{
+    text-align: center;
+    padding-top:5%;
+}
+
+.grid-container-detalleComercio {
+    display: grid;
+    grid-template-columns: 100%;
+    font-size: large;
+   
+}
+
+.grid-item-detalleComercio {
+    text-align: center; 
+    
+}
+
+.grid-item-detalleComercio img{
+    width: 1.7%;
+    padding-right: 0.5%;
+	height: auto;
+	cursor: pointer;
+    border-radius: 5% / 5%;
+
+}
+
+.botones{
+    text-align: center;
+    display: table;
+}
+
+.opcionesinicio:hover{
+    background-color: blue;
+}
+
+body{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.logo{
+    margin-left: 3%;
+    margin-top: 2%;
+    width: 10%;
+    border-radius: 20%;
+}
+    
+nav {
+   text-align: center;
+   float:right;
+   padding: 3%;
+}
+
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;  
+    width:10%;
+    padding:5px 10px;
+    background-color:#000;
+    border:1px solid #000;
+    text-align:center;
+    color:rgb(256, 256, 256);
+    margin: 1%;
+    border-radius: 5px;
+    transition: 0.3s;
+} 
+
+nav li:hover{
+    background-color:#fff;
+    color:#000;
+}
+
+
+@media screen and (max-width:1000px) {
+    .grid-item-detalleComercio img{
+        width: 5%;
+        padding-right: 0.5%;
+        height: auto;
+        cursor: pointer;
+        border-radius: 5% / 5%;    
+    }
+
+    .titulo{
+        text-align: center;
+        padding-top:9%;
+    }
+
+    .grid-container-detalleComercio {
+        display: grid;
+        grid-template-columns: 100%;
+        font-size: large;
+        padding-bottom: 50%;
+    }
+
+    nav {
+        text-align: center;
+        float:right;
+        padding: 5%;
+     }
+
+     .video{
+        width: 70%;       
+     }     
+}

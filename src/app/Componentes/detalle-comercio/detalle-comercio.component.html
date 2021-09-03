@@ -1,0 +1,33 @@
+<nav>
+    <a href="javascript: history.go(-1)">Volver</a>
+</nav>
+    <br>
+    <h1 class="titulo">{{nombreLocal}}</h1>
+    
+<html>
+<main> 
+    <br>
+    <div class="grid-container-detalleComercio">
+        <div class="grid-item-detalleComercio" >
+             <p>  
+            <iframe  class="video" 
+            [src]= 'getVideoIframe (detalleLocal.video)' frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+             </p>                        
+             <a id="locales" *ngIf="!(detalleLocal.urlMaps === '')" href="https://www.google.com/maps/place/{{detalleLocal.urlMaps}}">
+                <img src="../../../assets/Imagenes/Iconos/IconoMaps.png">{{detalleLocal.direccion}}</a>  
+
+              <p> <img src="../../../assets/Imagenes/Iconos/TelefonoIcono.png"><b> </b>{{detalleLocal.contacto}}</p> 
+            <p>
+             <a id="locales" *ngIf="!(detalleLocal.instagram === '')" href="https://instragram.com/{{detalleLocal.instagram}}">
+                <img src="../../../assets/Imagenes/Iconos/IconoInstagram.png">@{{detalleLocal.instagram}}</a></p>
+             <p>
+             <a id="locales" *ngIf="!(detalleLocal.facebook === '')" href="https://facebook.com/{{detalleLocal.facebook}}">
+                <img src="../../../assets/Imagenes/Iconos/IconoFacebook.png">{{detalleLocal.facebook}}</a>       </p>
+        </div> 
+        <br>
+        <br>         
+    </div>  
+</main>
+</html>
+    
+

@@ -1,0 +1,13 @@
+<html>
+    <br>
+    <h1 class="titulo">COMERCIOS</h1>
+    <br>
+<main>  
+        <div class="grid-container-locales">         
+            <div class="grid-item-text-box" *ngFor ='let comercio of Comercios'>             
+                <a id="comercios" routerLink="./{{comercio.nombre}}" class="btn btn-white btn-animate"><img src={{comercio.foto}} alt=""> 
+                <p><b>{{comercio.nombre}} </b></p>   </a>   
+            </div>         
+        </div>   
+</main> 
+</html> 

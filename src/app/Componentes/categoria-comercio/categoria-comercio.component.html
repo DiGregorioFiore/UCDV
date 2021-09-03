@@ -1,0 +1,26 @@
+<nav>
+    <a href="javascript: history.go(-1)">Volver</a>
+</nav>
+    <br>
+    <h1 class="titulo">{{nombreCategoria}}</h1>
+    <br>
+<html>
+<main> 
+    <br>
+    <div class="grid-container-categoriacomercio">
+        <div class="grid-item-categoriacomercio" *ngFor ='let locales of CategoriaArray2'>
+           
+            <p><b> {{locales.nombre}}</b></p>  
+            <a id="locales" routerLink="../{{nombreCategoria}}/{{locales.nombre}}"> <img src={{locales.foto}} alt=""> </a> 
+            <p class="nombre">(Haga click en al foto)</p>
+            <br>
+            <br>
+            <br> 
+            <br>
+            <br>
+            <br> 
+            <br>                  
+        </div>    
+    </div> 
+</main>
+</html>
