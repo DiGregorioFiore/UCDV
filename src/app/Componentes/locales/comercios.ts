@@ -25,6 +25,7 @@ export const COMERCIOS: Comercio[] = [
   { nombre: 'Ópticas', foto: '../../../assets/Imagenes/Iconos/OpticasIcono.png' },
   { nombre: 'Panaderías', foto: '../../../assets/Imagenes/Iconos/PanaderiaIcono.png' },
   // { nombre: 'Peluquerías', foto: '../../../assets/Imagenes/Iconos/PeluqueriaIcono.png' },
+  { nombre: 'Pinturerías', foto: '../../../assets/Imagenes/Iconos/PintureriaIcono.png' },
   { nombre: 'Regalerías', foto: '../../../assets/Imagenes/Iconos/RegaleriaIcono.png' },
   { nombre: 'Repuestos automotor', foto: '../../../assets/Imagenes/Iconos/RepuestoAutomotorIcono.png' },
   { nombre: 'Sanitarios', foto: '../../../assets/Imagenes/Iconos/SanitariosIcono.png' },

@@ -1,6 +1,7 @@
 .titulo{
-    text-align: center;    
     font-size: 150%;
+    text-align: center;    
+    padding-top:3%;
 }
 
 .grid-container {
@@ -8,12 +9,12 @@
     grid-template-columns: 50% 50% ;
     font-size: medium;
 }
+
 .grid-container2 {
     display: grid;
     grid-template-columns: 50% 50% ;
     font-size: medium;
 }
-
 
 .grid-item {
     text-align: center; 
@@ -29,8 +30,7 @@
 }
 
 
-@media screen and (max-width:1000px) {
-	
+@media screen and (max-width:1000px) {	
     .titulo{
         font-size: 120%;
     }  

@@ -34,6 +34,7 @@ h1{
     padding-bottom: 3%;
 }
 
+
  /* Boton atras */
 .botones{
     text-align: center;
@@ -68,6 +69,14 @@ nav a{
 nav li:hover{
     background-color:#fff;
     color:#000;
+}
+
+ #numero{
+     font-size: larger;
+ }
+
+img{
+    width: 70%;
 }
 .nombre{
     color: rgb(91, 88, 88);

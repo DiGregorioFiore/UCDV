@@ -33,6 +33,8 @@ export const DETALLE_COMERCIO: DetalleComercio[] = [
   //Farmacias
   {nombre: 'Acceso Norte', direccion: 'Ángel Pacheco, Del Viso',urlMaps: 'Farmacia+Acceso+Norte/@-34.4420732,-58.7841751,15.96z/data=!4m5!3m4!1s0x0:0xd7e203539bac36c7!8m2!3d-34.4417978!4d-58.7835897',contacto: '02320-402222 ', instagram:'', facebook:'', video: 'https://www.youtube.com/embed/Gj5nkQi9THY', categoria:'Farmacia'},
   {nombre: 'De La Ruta', direccion: 'Av. Constitución 417, Del Viso' ,urlMaps: 'Farmacia+de+la+Ruta/@-34.4451713,-58.7909719,17z/data=!3m1!4b1!4m5!3m4!1s0x95bc9ed735604287:0xbb4dd42172cdcb82!8m2!3d-34.4451591!4d-58.7887891',contacto: '02320-400444 ', instagram:'', facebook:'', video: 'https://www.youtube.com/embed/7QgWsIIxKrc', categoria:'Farmacia'},
+  {nombre: 'Herrera', direccion: 'Beruti 1188, Del Viso' ,urlMaps: 'Farmacia+Herrera/@-34.4521111,-58.7961441,17z/data=!4m5!3m4!1s0x95bc9ecdf36b2017:0xb635c4fa36362c62!8m2!3d-34.4523407!4d-58.7955103?hl=es',contacto: '02320-470281 ', instagram:'', facebook:'', video: 'https://www.youtube.com/embed/n_xfrgeL4fM', categoria:'Farmacia'},
+  {nombre: 'Oroño', direccion: 'Beruti 1305, Del Viso' ,urlMaps: 'Farmacia+Oroño/@-34.4540917,-58.7985795,17z/data=!3m1!4b1!4m5!3m4!1s0x95bc9ecd97333a0b:0xc72b613aeba795ab!8m2!3d-34.4540917!4d-58.7963908?hl=es',contacto: '02320-476666 ', instagram:'', facebook:'', video: 'https://www.youtube.com/embed/FKUA0IfXlYc', categoria:'Farmacia'},
 
   //Ferreteria
   //Gastronomia
@@ -74,6 +76,10 @@ export const DETALLE_COMERCIO: DetalleComercio[] = [
   //Panaderías
   {nombre: 'Panadería Villa Del Carmen', direccion: 'Nobel 5705, Villa del Carmen',urlMaps: 'Panadería+y+pastelería+Villa+del+Carmen/@-34.4644026,-58.7865514,20z/data=!4m5!3m4!1s0x95bc9c4157af3699:0x8f10bba4d9104767!8m2!3d-34.464338!4d-58.7863074',contacto: '02320-472821', instagram:'panaderiavilladelcarmen_', facebook:'', video: 'https://www.youtube.com/embed/SDNH5xZi9kw', categoria:'Panaderías' },
   {nombre: 'Panadería La Nueva', direccion: 'Independencia 6880, Del Viso',urlMaps: 'PANADERÍA+La+Nueva/@-34.453307,-58.7976989,17z/data=!3m1!4b1!4m5!3m4!1s0x95bc9ecd764f216f:0x2f89fd2663621e0!8m2!3d-34.4532978!4d-58.7955042',contacto: ' 02320-470668', instagram:'', facebook:'', video: 'https://www.youtube.com/embed/RQIHpN5ydc4', categoria:'Panaderías' },
+
+  //Pinturerías
+  {nombre: 'Quimtex', direccion: '12 De Octubre 1264, Del Viso',urlMaps: 'Quimtex+Express+Del+Viso/@-34.4397514,-58.7851877,15z/data=!4m5!3m4!1s0x0:0x535baf95480a2f03!8m2!3d-34.4397514!4d-58.7851877',contacto: ' 02320-405560', instagram:'', facebook:'', video: 'https://www.youtube.com/embed/34v7s6c_fRo', categoria:'Pinturerías' },
+
 
   //Regalería
   {nombre: 'S & Z Regalería', direccion: 'Independencia 6724, Del Viso',urlMaps: 'El+Shopping/@-34.4536908,-58.7948974,17z/data=!4m13!1m7!3m6!1s0x95bc9ed2bd1a7373:0xdeeb100eddc4f2a3!2sFYP,+Independencia+6724,+B1669+Pilar,+Provincia+de+Buenos+Aires!3b1!8m2!3d-34.4536959!4d-58.7949986!3m4!1s0x95bc9ecd7c8ab715:0x2c7b7dc5bb90f44f!8m2!3d-34.4536153!4d-58.7948745',contacto: ' 02320-470668', instagram:'', facebook:'', video: 'https://www.youtube.com/embed/GxIkg_oHnho', categoria:'Regalerías' },

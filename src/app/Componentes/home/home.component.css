@@ -3,8 +3,9 @@ h2{
 }
 
 .titulo{
+    font-size: 150%;
     text-align: center;    
-    font-size:large;
+    padding-top:3%;
 }
 
  p{
@@ -82,5 +83,10 @@ img{
         margin-left: 3%;
         border-radius: 5%;
     } 
+
+    main
+    {
+    padding-bottom: 10%;
+    }
         
 } 

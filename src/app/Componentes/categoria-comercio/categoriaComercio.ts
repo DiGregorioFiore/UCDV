@@ -37,7 +37,9 @@ export const CATEGORIA_COMERCIO: CategoriaComercio[] = [
   //Farmacias
   {nombre: 'Acceso Norte', foto: '../../../assets/Imagenes/Comercios/Farmacias/FarmaciaAccesoNorte.jpeg', categoria:'Farmacias' },
   {nombre: 'De La Ruta', foto: '../../../assets/Imagenes/Comercios/Farmacias/FarmaciaDeLaRuta.jpeg', categoria:'Farmacias' },
-  
+  {nombre: 'Herrera', foto: '../../../assets/Imagenes/Comercios/Farmacias/FarmaciaHerrera.jpeg', categoria:'Farmacias' },
+  {nombre: 'Oroño', foto: '../../../assets/Imagenes/Comercios/Farmacias/FarmaciaOroño.jpeg', categoria:'Farmacias' },
+
   //Ferreteria
   {nombre: 'Proximamente', foto: '', categoria:'Ferreterías' },
   
@@ -80,8 +82,8 @@ export const CATEGORIA_COMERCIO: CategoriaComercio[] = [
   {nombre: 'Panadería Villa Del Carmen', foto: '../../../assets/Imagenes/Comercios/Panaderia/PanaderiaVillaDelCarmen/PanaderiaVillaDelCarmen.jpeg', categoria:'Panaderías' },
   {nombre: 'Panadería La Nueva', foto: '../../../assets/Imagenes/Comercios/Panaderia/LaNueva/LaNueva.jpeg', categoria:'Panaderías' },
 
-  //Peluqueria
-  {nombre: 'Proximamente', foto: '', categoria:'Peluquerías' },
+  //Pinturerías
+  {nombre: 'Quimtex', foto: '../../../assets/Imagenes/Comercios/Pinturerias/Quimtex.jpeg', categoria:'Pinturerías' },
   
   //Regalerias
   {nombre: 'S & Z Regalería', foto: '../../../assets/Imagenes/Comercios/Regaleria/S&Z/S&Z.jpeg', categoria:'Regalerías' },

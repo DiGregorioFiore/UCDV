@@ -90,7 +90,6 @@ nav li:hover{
         padding-top:9%;
     }
     
-    
     .grid-container-categoriacomercio {
         display: grid;
         grid-template-columns: auto auto;
@@ -107,8 +106,8 @@ nav li:hover{
         cursor: pointer;
         border-radius: 5% / 5%;
         top:2%;
-
     }
+
     nav {
         text-align: center;
         float:right;
@@ -116,7 +115,7 @@ nav li:hover{
     }
 
     main{
-        padding-bottom: 80%;
+        padding-bottom: 40%;
     }
 
 }

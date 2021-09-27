@@ -15,6 +15,12 @@ import { CategoriaComercioComponent } from './Componentes/categoria-comercio/cat
 import { DetalleComercioComponent } from './Componentes/detalle-comercio/detalle-comercio.component';
 import { ServiciosComponent } from './Componentes/servicios/servicios.component';
 import { FarmaciasComponent } from './Componentes/farmacias/farmacias.component';
+import { AngularFireModule } from '@angular/fire';
+// import { AngularFireDatabaseModule } from '@angular/fire/database';
+import { environment } from '../environments/environment';
+import { AdminComponent } from './Componentes/admin/admin.component';
+import { TelefonosUtilesComponent } from './Componentes/telefonos-utiles/telefonos-utiles.component';
+
 
 @NgModule({
   declarations: [
@@ -29,11 +35,15 @@ import { FarmaciasComponent } from './Componentes/farmacias/farmacias.component'
     DetalleComercioComponent,
     ServiciosComponent,
     FarmaciasComponent,
+    AdminComponent,
+    TelefonosUtilesComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+  //  AngularFireDatabaseModule,
     CalendarModule.forRoot({
       provide: DateAdapter,
       useFactory: adapterFactory,
